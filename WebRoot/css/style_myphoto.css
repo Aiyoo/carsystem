@@ -1,0 +1,36 @@
+@CHARSET "UTF-8";
+#firstDiv {
+	height:260px;
+	width:165px;
+	float: left;
+	margin: 14px;
+}
+#secDiv{
+	height:200px;
+	width:140px;
+	float: left;
+	position: relative;
+}
+#con_img{
+	height: 210px;
+	width: 160px;
+	float: left;
+}
+#con_img:hover img{
+	display: block;
+	}
+#con_img #pic_name{
+	text-align: center;
+}
+#con_img #pic_date{
+	text-align: center;
+}
+#img_1{
+	display:block;
+	}
+#img_2{
+	width:700px;
+	position:fixed;
+	top:70px;
+	left:210px;
+	display:none;}

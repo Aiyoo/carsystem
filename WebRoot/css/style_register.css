@@ -1,0 +1,24 @@
+@CHARSET "UTF-8";
+#register{
+	width:300px;
+	font-family: "微软雅黑";
+	text-align:left;
+	font-size:14px;
+	line-height: 30px;
+	margin-top: 10px;
+}
+#regdiv1{
+	width:80px;
+	height:30px;
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	text-align:left;
+}
+#regdiv2{
+	width:218px;
+	height:30px;
+	float: left;
+	margin: 0px;
+	padding: 0px;
+}

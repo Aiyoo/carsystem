@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <servlet>
+    <servlet-name>registerUserServlet</servlet-name>
+    <servlet-class>com.cars.servlet.registerUserServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>loginUserServlet</servlet-name>
+    <servlet-class>com.cars.servlet.loginUserServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>buyCarServlet</servlet-name>
+    <servlet-class>com.cars.servlet.buyCarServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>PayCarServlet</servlet-name>
+    <servlet-class>com.cars.servlet.PayCarServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>QueryNewsServlet</servlet-name>
+    <servlet-class>com.cars.servlet.QueryNewsServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>QueryTitleServlet</servlet-name>
+    <servlet-class>com.cars.servlet.QueryTitleServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>fixCarServlet</servlet-name>
+    <servlet-class>com.cars.servlet.fixCarServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>loginManagerServlet</servlet-name>
+    <servlet-class>com.cars.servlet.loginManagerServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>addNewsServlet</servlet-name>
+    <servlet-class>com.cars.servlet.addNewsServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>MgloginoutServlet</servlet-name>
+    <servlet-class>com.cars.servlet.MgloginoutServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>addCarServlet</servlet-name>
+    <servlet-class>com.cars.servlet.addCarServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>MgUpdateCarcountServlet</servlet-name>
+    <servlet-class>com.cars.servlet.MgUpdateCarcountServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>QueryCarMessageServlet</servlet-name>
+    <servlet-class>com.cars.servlet.QueryCarMessageServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>MgDeleteServlet</servlet-name>
+    <servlet-class>com.cars.servlet.MgDeleteServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeleteNewsTitleServlet</servlet-name>
+    <servlet-class>com.cars.servlet.DeleteNewsTitleServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>QureyContextServlet</servlet-name>
+    <servlet-class>com.cars.servlet.QureyContextServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>showFixCarServlet</servlet-name>
+    <servlet-class>com.cars.servlet.showFixCarServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>orderCarServlet</servlet-name>
+    <servlet-class>com.cars.servlet.orderCarServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>myOrderServlet</servlet-name>
+    <servlet-class>com.cars.servlet.myOrderServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>registerUserServlet</servlet-name>
+    <url-pattern>/servlet/registerUserServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>loginUserServlet</servlet-name>
+    <url-pattern>/servlet/loginUserServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>buyCarServlet</servlet-name>
+    <url-pattern>/servlet/buyCarServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PayCarServlet</servlet-name>
+    <url-pattern>/servlet/PayCarServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryNewsServlet</servlet-name>
+    <url-pattern>/servlet/QueryNewsServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryTitleServlet</servlet-name>
+    <url-pattern>/servlet/QueryTitleServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>fixCarServlet</servlet-name>
+    <url-pattern>/servlet/fixCarServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>loginManagerServlet</servlet-name>
+    <url-pattern>/servlet/loginManagerServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>addNewsServlet</servlet-name>
+    <url-pattern>/servlet/addNewsServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MgloginoutServlet</servlet-name>
+    <url-pattern>/servlet/MgloginoutServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>addCarServlet</servlet-name>
+    <url-pattern>/servlet/addCarServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MgUpdateCarcountServlet</servlet-name>
+    <url-pattern>/servlet/MgUpdateCarcountServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryCarMessageServlet</servlet-name>
+    <url-pattern>/servlet/QueryCarMessageServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MgDeleteServlet</servlet-name>
+    <url-pattern>/servlet/MgDeleteServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteNewsTitleServlet</servlet-name>
+    <url-pattern>/servlet/DeleteNewsTitleServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QureyContextServlet</servlet-name>
+    <url-pattern>/servlet/QureyContextServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>showFixCarServlet</servlet-name>
+    <url-pattern>/servlet/showFixCarServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>orderCarServlet</servlet-name>
+    <url-pattern>/servlet/orderCarServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>myOrderServlet</servlet-name>
+    <url-pattern>/servlet/myOrderServlet</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
