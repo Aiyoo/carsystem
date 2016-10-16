@@ -18,4 +18,4 @@ Using the cars.sql in the root directory,directly import into Mysql.
 
 Username:root,Password:root
 
-使用根目录下的cars.sql直接导入Mysql即可，初始登录账户是admin,密码也是admin
+使用根目录下的cars.sql直接导入Mysql即可，初始登录账户是root,密码也是root
