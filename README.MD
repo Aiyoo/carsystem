@@ -1,16 +1,16 @@
-###carsystem
+###CarSystem
 
-A JavaEE project used jre7 and Mysql.一个使用jre7和Mysql数据库的JavaEE项目。
+A simple JavaEE project used jdk8 and Mysql.一个使用jdk8和Mysql数据库的简单的JavaEE项目。
 
 Description 项目说明
 
-A very simple JavaEE project,Using the MVC development pattern. This is a car sell system, just for practiced ~
+A very simple JavaEE project,Using the MVC development pattern. This is a car manager system, just for practiced ~
 
 简单的JavaEE项目，使用MVC开发模式。做了一个汽车新闻资讯，提供了查询资讯,订购汽车,预约维修汽车等功能,由于项目十分简单,是之前课程设计做的简单的练手项目~
 
 Runtime Environment 运行环境
 
-JDK7+Mysql+Tomcat7
+JDK8+Mysql+Tomcat6
 
 Database Information 数据库信息
 
